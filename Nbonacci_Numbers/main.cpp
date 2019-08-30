@@ -1,17 +1,20 @@
+#include <stdio.h>
 #include <iostream>
 #include <vector>
 #include <numeric>
 #include <cmath>
-#include <stdio.h>
+#include <string>
 
 long nbonacci(unsigned int series, unsigned int n);
 void computeNbonacciRatio(std::string title, unsigned int series);
 
-int main() {
+int main()
+{
 
     std::string fib, trib, fourb, fiveb;
 
-    for (int i = 1; i <= 20; i++){
+    for (int i = 1; i <= 20; i++)
+    {
         fib += " " + std::to_string(nbonacci(2, i));
         trib += " " + std::to_string(nbonacci(3, i));
         fourb += " " + std::to_string(nbonacci(4, i));
@@ -33,11 +36,14 @@ int main() {
     return 0;
 }
 
-long nbonacci(unsigned int series, unsigned int n){
+long nbonacci(unsigned int series, unsigned int n)
+{
     if(n < series + 1) return 1;
-    else {
+    else
+    {
         long sum = 0;
-        for (int i = series; i > 0; i--) {
+        for (int i = series; i > 0; i--)
+        {
             sum += nbonacci(series, n - i);
         }
         return sum;
@@ -46,10 +52,12 @@ long nbonacci(unsigned int series, unsigned int n){
 
 }
 
-void computeNbonacciRatio(std::string title, unsigned int series){
+void computeNbonacciRatio(std::string title, unsigned int series)
+{
     int i = 0;
     double last = series, current = series;
-    while(std::abs(last-current) >  0.000001 || current - last == 0){
+    while(std::abs(last-current) >  0.000001 || current - last == 0)
+    {
         i++;
         last = current;
         current = static_cast<double>(nbonacci(series,
