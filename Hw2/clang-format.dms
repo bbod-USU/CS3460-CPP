@@ -1,0 +1,16 @@
+---
+BreakBeforeBraces: Allman
+BreakConstructorInitializers: AfterColon
+ColumnLimit: '0'
+Cpp11BracedListStyle: 'true'
+DerivePointerAlignment: 'false'
+IncludeBlocks: Regroup
+IndentCaseLabels: 'true'
+IndentWidth: '4'
+Language: Cpp
+NamespaceIndentation: All
+PointerAlignment: Left
+TabWidth: '4'
+UseTab: Never
+
+...

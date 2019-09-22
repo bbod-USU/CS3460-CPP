@@ -1,0 +1,108 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'ClangFormat' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 verbose config Skipping project config: /Users/bradybodily/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData ClangFormat
+9 silly fetchNamedPackageData ClangFormat
+10 silly mapToRegistry name ClangFormat
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'ClangFormat',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'ClangFormat',
+13 silly mapToRegistry   name: 'ClangFormat',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/ClangFormat
+15 verbose request uri https://registry.npmjs.org/ClangFormat
+16 verbose request no auth needed
+17 info attempt registry request try #1 at 10:00:46 PM
+18 verbose request using bearer token for auth
+19 verbose request id d3e6ca75f42c08b0
+20 http request GET https://registry.npmjs.org/ClangFormat
+21 http 404 https://registry.npmjs.org/ClangFormat
+22 verbose headers { date: 'Sat, 21 Sep 2019 04:00:47 GMT',
+22 verbose headers   'content-type': 'application/json',
+22 verbose headers   'content-length': '21',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'set-cookie': [ '__cfduid=dfe3e029cc31a7372bf3bb4c9ba2c3f591569038446; expires=Sun, 20-Sep-20 04:00:46 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+22 verbose headers   'cf-cache-status': 'MISS',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   'cf-ray': '519922552886a074-SLC',
+22 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 verbose headers   vary: 'accept-encoding, accept',
+22 verbose headers   server: 'cloudflare' }
+23 silly get cb [ 404,
+23 silly get   { date: 'Sat, 21 Sep 2019 04:00:47 GMT',
+23 silly get     'content-type': 'application/json',
+23 silly get     'content-length': '21',
+23 silly get     connection: 'keep-alive',
+23 silly get     'set-cookie': [ '__cfduid=dfe3e029cc31a7372bf3bb4c9ba2c3f591569038446; expires=Sun, 20-Sep-20 04:00:46 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+23 silly get     'cf-cache-status': 'MISS',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     'cf-ray': '519922552886a074-SLC',
+23 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 silly get     vary: 'accept-encoding, accept',
+23 silly get     server: 'cloudflare' } ]
+24 silly fetchPackageMetaData Error: Not found : ClangFormat
+24 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+24 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+24 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+24 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+24 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+24 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+24 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+24 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+24 silly fetchPackageMetaData  error for ClangFormat { Error: Not found : ClangFormat
+24 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+24 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+24 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+24 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+24 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+24 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+24 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+24 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12) pkgid: 'ClangFormat', statusCode: 404, code: 'E404' }
+25 silly rollbackFailedOptional Starting
+26 silly rollbackFailedOptional Finishing
+27 silly runTopLevelLifecycles Finishing
+28 silly install printInstalled
+29 verbose stack Error: Not found : ClangFormat
+29 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+29 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+29 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+29 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+29 verbose stack     at emitTwo (events.js:106:13)
+29 verbose stack     at Request.emit (events.js:191:7)
+29 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+29 verbose stack     at emitOne (events.js:96:13)
+29 verbose stack     at Request.emit (events.js:188:7)
+29 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+30 verbose statusCode 404
+31 verbose pkgid ClangFormat
+32 verbose cwd /Users/bradybodily/Repositories/CS3460/Hw2/cmake-build-debug
+33 error Darwin 18.5.0
+34 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "ClangFormat"
+35 error node v6.10.0
+36 error npm  v3.10.10
+37 error code E404
+38 error 404 Not found : ClangFormat
+39 error 404
+40 error 404 'ClangFormat' is not in the npm registry.
+41 error 404 Your package name is not valid, because
+42 error 404 1. name can no longer contain capital letters
+43 error 404 Note that you can also install from a
+44 error 404 tarball, folder, http url, or git url.
+45 verbose exit [ 1, true ]
