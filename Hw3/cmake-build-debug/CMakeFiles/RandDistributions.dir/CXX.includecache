@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bradybodily/Repositories/CS3460/Hw3/TestDistributions.cpp
+distributions.hpp
+/Users/bradybodily/Repositories/CS3460/Hw3/distributions.hpp
+gtest/gtest.h
+/Users/bradybodily/Repositories/CS3460/Hw3/gtest/gtest.h
+numeric
+-
+
+/Users/bradybodily/Repositories/CS3460/Hw3/distributions.hpp
+iomanip
+-
+iostream
+-
+random
+-
+vector
+-
+
+/Users/bradybodily/Repositories/CS3460/Hw3/main.cpp
+distributions.hpp
+/Users/bradybodily/Repositories/CS3460/Hw3/distributions.hpp
+iostream
+-
+

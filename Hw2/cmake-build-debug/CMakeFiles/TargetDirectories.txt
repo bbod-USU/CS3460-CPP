@@ -1,3 +1,4 @@
 /Users/bradybodily/Repositories/CS3460/Hw2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/bradybodily/Repositories/CS3460/Hw2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/bradybodily/Repositories/CS3460/Hw2/cmake-build-debug/CMakeFiles/ClangFormat.dir
 /Users/bradybodily/Repositories/CS3460/Hw2/cmake-build-debug/CMakeFiles/RandDistributions.dir

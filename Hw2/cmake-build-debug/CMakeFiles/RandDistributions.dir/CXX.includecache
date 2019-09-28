@@ -7,21 +7,13 @@
 #IncludeRegexTransform: 
 
 /Users/bradybodily/Repositories/CS3460/Hw2/Assignment2.cpp
-iostream
--
-random
--
-string
--
 cstdint
 -
 iomanip
 -
-functional
--
 iostream
 -
-numeric
+random
 -
 string
 -

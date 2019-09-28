@@ -37,6 +37,16 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ClangFormat">
+				<Option working_dir="/Users/bradybodily/Repositories/CS3460/Hw2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ClangFormat"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="RandDistributions">
 				<Option output="/Users/bradybodily/Repositories/CS3460/Hw2/cmake-build-debug/RandDistributions" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/bradybodily/Repositories/CS3460/Hw2/cmake-build-debug"/>

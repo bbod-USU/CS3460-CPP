@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c98e3fd2-b22a-4f7f-9cec-1788f12a052b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Hw2/.idea/Hw2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hw2/Assignment2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hw2/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/untitled1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nbonacci_Numbers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Nbonacci_Numbers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nbonacci_Numbers/cmake-build-debug/CMakeFiles/Nbonacci_Numbers.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Nbonacci_Numbers/cmake-build-debug/CMakeFiles/Nbonacci_Numbers.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nbonacci_Numbers/cmake-build-debug/CMakeFiles/Nbonacci_Numbers.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Nbonacci_Numbers/cmake-build-debug/CMakeFiles/Nbonacci_Numbers.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nbonacci_Numbers/cmake-build-debug/Nbonacci_Numbers" beforeDir="false" afterPath="$PROJECT_DIR$/../Nbonacci_Numbers/cmake-build-debug/Nbonacci_Numbers" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1R8L5ECavhWwiumYugG56AH74oB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c98e3fd2-b22a-4f7f-9cec-1788f12a052b" name="Default Changelist" comment="" />
+      <created>1569043590813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569043590813</updated>
+      <workItem from="1569043592234" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
