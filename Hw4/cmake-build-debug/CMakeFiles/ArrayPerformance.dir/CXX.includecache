@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bradybodily/Repositories/CS3460/Hw4/main.cpp
+sortutils.hpp
+/Users/bradybodily/Repositories/CS3460/Hw4/sortutils.hpp
+random
+-
+
+/Users/bradybodily/Repositories/CS3460/Hw4/sortutils.cpp
+sortutils.hpp
+/Users/bradybodily/Repositories/CS3460/Hw4/sortutils.hpp
+
+/Users/bradybodily/Repositories/CS3460/Hw4/sortutils.hpp
+algorithm
+-
+array
+-
+chrono
+-
+iomanip
+-
+iostream
+-
+vector
+-
+

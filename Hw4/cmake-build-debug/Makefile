@@ -56,6 +56,52 @@ CMAKE_BINARY_DIR = /Users/bradybodily/Repositories/CS3460/Hw4/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -111,17 +157,122 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Hw4
+# Target rules for targets named ArrayPerformance
 
 # Build rule for target.
-Hw4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Hw4
-.PHONY : Hw4
+ArrayPerformance: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ArrayPerformance
+.PHONY : ArrayPerformance
 
 # fast build rule for target.
-Hw4/fast:
-	$(MAKE) -f CMakeFiles/Hw4.dir/build.make CMakeFiles/Hw4.dir/build
-.PHONY : Hw4/fast
+ArrayPerformance/fast:
+	$(MAKE) -f CMakeFiles/ArrayPerformance.dir/build.make CMakeFiles/ArrayPerformance.dir/build
+.PHONY : ArrayPerformance/fast
+
+#=============================================================================
+# Target rules for targets named ClangFormat
+
+# Build rule for target.
+ClangFormat: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ClangFormat
+.PHONY : ClangFormat
+
+# fast build rule for target.
+ClangFormat/fast:
+	$(MAKE) -f CMakeFiles/ClangFormat.dir/build.make CMakeFiles/ClangFormat.dir/build
+.PHONY : ClangFormat/fast
+
+#=============================================================================
+# Target rules for targets named UnitTestRunner
+
+# Build rule for target.
+UnitTestRunner: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 UnitTestRunner
+.PHONY : UnitTestRunner
+
+# fast build rule for target.
+UnitTestRunner/fast:
+	$(MAKE) -f CMakeFiles/UnitTestRunner.dir/build.make CMakeFiles/UnitTestRunner.dir/build
+.PHONY : UnitTestRunner/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) -f googletest-build/googlemock/CMakeFiles/gmock.dir/build.make googletest-build/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) -f googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) -f googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make googletest-build/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f googletest-build/googletest/CMakeFiles/gtest.dir/build.make googletest-build/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+TestPerformance.o: TestPerformance.cpp.o
+
+.PHONY : TestPerformance.o
+
+# target to build an object file
+TestPerformance.cpp.o:
+	$(MAKE) -f CMakeFiles/UnitTestRunner.dir/build.make CMakeFiles/UnitTestRunner.dir/TestPerformance.cpp.o
+.PHONY : TestPerformance.cpp.o
+
+TestPerformance.i: TestPerformance.cpp.i
+
+.PHONY : TestPerformance.i
+
+# target to preprocess a source file
+TestPerformance.cpp.i:
+	$(MAKE) -f CMakeFiles/UnitTestRunner.dir/build.make CMakeFiles/UnitTestRunner.dir/TestPerformance.cpp.i
+.PHONY : TestPerformance.cpp.i
+
+TestPerformance.s: TestPerformance.cpp.s
+
+.PHONY : TestPerformance.s
+
+# target to generate assembly for a file
+TestPerformance.cpp.s:
+	$(MAKE) -f CMakeFiles/UnitTestRunner.dir/build.make CMakeFiles/UnitTestRunner.dir/TestPerformance.cpp.s
+.PHONY : TestPerformance.cpp.s
 
 main.o: main.cpp.o
 
@@ -129,7 +280,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Hw4.dir/build.make CMakeFiles/Hw4.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/ArrayPerformance.dir/build.make CMakeFiles/ArrayPerformance.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +289,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Hw4.dir/build.make CMakeFiles/Hw4.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/ArrayPerformance.dir/build.make CMakeFiles/ArrayPerformance.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +298,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Hw4.dir/build.make CMakeFiles/Hw4.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/ArrayPerformance.dir/build.make CMakeFiles/ArrayPerformance.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 sortutils.o: sortutils.cpp.o
@@ -156,7 +307,8 @@ sortutils.o: sortutils.cpp.o
 
 # target to build an object file
 sortutils.cpp.o:
-	$(MAKE) -f CMakeFiles/Hw4.dir/build.make CMakeFiles/Hw4.dir/sortutils.cpp.o
+	$(MAKE) -f CMakeFiles/ArrayPerformance.dir/build.make CMakeFiles/ArrayPerformance.dir/sortutils.cpp.o
+	$(MAKE) -f CMakeFiles/UnitTestRunner.dir/build.make CMakeFiles/UnitTestRunner.dir/sortutils.cpp.o
 .PHONY : sortutils.cpp.o
 
 sortutils.i: sortutils.cpp.i
@@ -165,7 +317,8 @@ sortutils.i: sortutils.cpp.i
 
 # target to preprocess a source file
 sortutils.cpp.i:
-	$(MAKE) -f CMakeFiles/Hw4.dir/build.make CMakeFiles/Hw4.dir/sortutils.cpp.i
+	$(MAKE) -f CMakeFiles/ArrayPerformance.dir/build.make CMakeFiles/ArrayPerformance.dir/sortutils.cpp.i
+	$(MAKE) -f CMakeFiles/UnitTestRunner.dir/build.make CMakeFiles/UnitTestRunner.dir/sortutils.cpp.i
 .PHONY : sortutils.cpp.i
 
 sortutils.s: sortutils.cpp.s
@@ -174,7 +327,8 @@ sortutils.s: sortutils.cpp.s
 
 # target to generate assembly for a file
 sortutils.cpp.s:
-	$(MAKE) -f CMakeFiles/Hw4.dir/build.make CMakeFiles/Hw4.dir/sortutils.cpp.s
+	$(MAKE) -f CMakeFiles/ArrayPerformance.dir/build.make CMakeFiles/ArrayPerformance.dir/sortutils.cpp.s
+	$(MAKE) -f CMakeFiles/UnitTestRunner.dir/build.make CMakeFiles/UnitTestRunner.dir/sortutils.cpp.s
 .PHONY : sortutils.cpp.s
 
 # Help Target
@@ -183,9 +337,22 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... install"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... ArrayPerformance"
 	@echo "... edit_cache"
-	@echo "... Hw4"
+	@echo "... ClangFormat"
+	@echo "... UnitTestRunner"
+	@echo "... gmock"
+	@echo "... gmock_main"
+	@echo "... gtest_main"
+	@echo "... gtest"
+	@echo "... TestPerformance.o"
+	@echo "... TestPerformance.i"
+	@echo "... TestPerformance.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

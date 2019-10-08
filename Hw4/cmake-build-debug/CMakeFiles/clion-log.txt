@@ -1,4 +1,12 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/bradybodily/Repositories/CS3460/Hw4
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/bradybodily/Repositories/CS3460/Hw4/cmake-build-debug
+CMake Error: File /Users/bradybodily/Repositories/CS3460/Hw4/CMakeLists.txt.in does not exist.
+CMake Error at CMakeLists.txt:68 (configure_file):
+  configure_file Problem configuring file
+
+
+CMake Error at CMakeLists.txt:73 (message):
+  CMake step for googletest failed: No such file or directory
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/bradybodily/Repositories/CS3460/Hw4/cmake-build-debug/CMakeFiles/CMakeOutput.log".
