@@ -36,12 +36,15 @@ int main()
         }
         std::cout << input << std::endl;
 
+
+        //Found on Stack OverFlow//
         int i = input.length() - 1; // last character
         while (i != 0 && !isspace(input[i]))
         {
             --i;
         }
         std::string lastword = input.substr(i + 1);
+        //------------------//
 
         auto words = tree->predict(lastword, rlutil::trows() - 3);
         std::cout << "-----prediction-----" << std::endl;
