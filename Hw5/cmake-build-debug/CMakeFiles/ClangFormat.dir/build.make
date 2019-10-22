@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /Users/bradybodily/Repositories/CS3460/Hw5/cmake-build-debug
 include CMakeFiles/ClangFormat.dir/progress.make
 
 CMakeFiles/ClangFormat:
-	/usr/local/bin/clang-format -i -style=file /Users/bradybodily/Repositories/CS3460/Hw5/WordTree.hpp /Users/bradybodily/Repositories/CS3460/Hw5/WordTree.cpp /Users/bradybodily/Repositories/CS3460/Hw5/TestWordTree.cpp /Users/bradybodily/Repositories/CS3460/Hw5/main.cpp
+	/usr/local/bin/clang-format -i -style=file /Users/bradybodily/Repositories/CS3460/Hw5/WordTree.hpp /Users/bradybodily/Repositories/CS3460/Hw5/rlutil.h /Users/bradybodily/Repositories/CS3460/Hw5/WordTree.cpp /Users/bradybodily/Repositories/CS3460/Hw5/TestWordTree.cpp /Users/bradybodily/Repositories/CS3460/Hw5/main.cpp
 
 ClangFormat: CMakeFiles/ClangFormat
 ClangFormat: CMakeFiles/ClangFormat.dir/build.make

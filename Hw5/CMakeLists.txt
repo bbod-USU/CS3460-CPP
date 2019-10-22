@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(hw4)
+project(Hw5)
 
 set(CMAKE_CXX_STANDARD 17)
 
@@ -7,10 +7,10 @@ set(CMAKE_CXX_STANDARD 17)
 # Manually specifying all the source files.
 #
 set(HEADER_FILES
-        WordTree.hpp)
+        WordTree.hpp
+        rlutil.h)
 set(SOURCE_FILES
-        WordTree.cpp
-        )
+        WordTree.cpp )
 set(UNIT_TEST_FILES
         TestWordTree.cpp)
 

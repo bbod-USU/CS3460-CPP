@@ -315,11 +315,11 @@ typedef const char* RLUTIL_STRING_T;
         KEY_DELETE = 5,
         KEY_END = 6,
         KEY_PGDOWN = 7,
-        #ifndef _WIN32
-            KEY_BACKSPACE = 127,
-        #else
-            KEY_BACKSPACE = 8,
-        #endif
+#ifndef _WIN32
+        KEY_BACKSPACE = 127,
+#else
+    KEY_BACKSPACE = 8,
+#endif
 
         KEY_UP = 14,
         KEY_DOWN = 15,
