@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="hw4" targetName="gmock_main" />
+      <config projectName="hw4" targetName="gmock" />
+      <config projectName="hw4" targetName="UnitTestRunner" />
+      <config projectName="hw4" targetName="gtest" />
+      <config projectName="hw4" targetName="gtest_main" />
+      <config projectName="hw4" targetName="TypeAhead" />
+      <config projectName="hw4" targetName="ClangFormat" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ebc4646-7c89-40ef-ae58-df1b2b76ed58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Hw5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestWordTree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordTree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordTree.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Hw5.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Hw5.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Hw5.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Hw5.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Hw5.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Hw5.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw3/cmake-build-debug/googletest-src" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw3/cmake-build-debug/googletest-src" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/ArrayPerformance" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/ArrayPerformance" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ArrayPerformance.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ArrayPerformance.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ArrayPerformance.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ArrayPerformance.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ArrayPerformance.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ArrayPerformance.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ArrayPerformance.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ArrayPerformance.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ArrayPerformance.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ArrayPerformance.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ArrayPerformance.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ArrayPerformance.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ArrayPerformance.dir/sortutils.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ArrayPerformance.dir/sortutils.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ClangFormat.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ClangFormat.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ClangFormat.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ClangFormat.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ClangFormat.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/ClangFormat.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/UnitTestRunner.dir/TestPerformance.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/UnitTestRunner.dir/TestPerformance.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/UnitTestRunner.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/UnitTestRunner.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/UnitTestRunner.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/UnitTestRunner.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/UnitTestRunner.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/UnitTestRunner.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/UnitTestRunner.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/UnitTestRunner.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/UnitTestRunner.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/UnitTestRunner.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/UnitTestRunner.dir/sortutils.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/CMakeFiles/UnitTestRunner.dir/sortutils.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/UnitTestRunner" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/UnitTestRunner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CMakeFiles/gmock.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CMakeFiles/gmock.dir/cmake_clean_target.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CMakeFiles/gmock.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Hw5.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CMakeFiles/gmock.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CMakeFiles/gmock.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CMakeFiles/gmock.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CMakeFiles/gmock_main.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CMakeFiles/gmock_main.dir/cmake_clean_target.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CMakeFiles/gmock_main.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CMakeFiles/gmock_main.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CMakeFiles/gmock_main.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googlemock/gmock.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest-distribution.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets-debug.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Hw5.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest.dir/cmake_clean_target.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest_main.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest_main.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest_main.dir/cmake_clean_target.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest_main.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest_main.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest_main.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/generated/GTestConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/generated/GTestConfigVersion.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/generated/gmock.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/generated/gmock_main.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/generated/gtest.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/generated/gtest_main.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-build/googletest/gtest.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/CMakeFiles/3.14.5/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/CMakeFiles/googletest.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/CMakeFiles/googletest.dir/Labels.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/CMakeFiles/googletest.dir/Labels.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/CMakeFiles/googletest.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/CMakeFiles/googletest.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/CMakeFiles/googletest.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/CMakeFiles/googletest.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/googletest-prefix/src/googletest-stamp/googletest-gitclone-lastrun.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/googletest-prefix/src/googletest-stamp/googletest-gitinfo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/googletest-prefix/tmp/googletest-cfgcmd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/googletest-prefix/tmp/googletest-cfgcmd.txt.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/googletest-prefix/tmp/googletest-gitclone.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-download/googletest-prefix/tmp/googletest-gitupdate.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-src" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/googletest-src" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/lib/libgtest_maind.a" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/lib/libgtest_maind.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hw4/cmake-build-debug/lib/libgtestd.a" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw4/cmake-build-debug/lib/libgtestd.a" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1SV1x4sqWZ77ndWKxv2Tl5XEtPY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.overridden" value="true" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmake-build-debug" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.TypeAhead">
+    <configuration name="ClangFormat" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw4" TARGET_NAME="ClangFormat" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeAhead" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw4" TARGET_NAME="TypeAhead" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hw4" RUN_TARGET_NAME="TypeAhead">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTestRunner" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw4" TARGET_NAME="UnitTestRunner" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hw4" RUN_TARGET_NAME="UnitTestRunner">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw4" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw4" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw4" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw4" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.ClangFormat" />
+      <item itemvalue="CMake Application.TypeAhead" />
+      <item itemvalue="CMake Application.UnitTestRunner" />
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ebc4646-7c89-40ef-ae58-df1b2b76ed58" name="Default Changelist" comment="" />
+      <created>1571634191521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571634191521</updated>
+      <workItem from="1571634194027" duration="23603000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>7</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

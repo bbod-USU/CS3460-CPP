@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bradybodily/Repositories/CS3460/Hw5/WordTree.cpp
+WordTree.hpp
+/Users/bradybodily/Repositories/CS3460/Hw5/WordTree.hpp
+
+/Users/bradybodily/Repositories/CS3460/Hw5/WordTree.hpp
+algorithm
+-
+array
+-
+fstream
+-
+iostream
+-
+memory
+-
+queue
+-
+string
+-
+vector
+-
+
