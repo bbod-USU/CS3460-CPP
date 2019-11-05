@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/brady/CLionProjects/CS3460-CPP/Hw6/Pattern.hpp
+cstdint
+-
+
+/Users/brady/CLionProjects/CS3460-CPP/Hw6/PatternGlider.cpp
+PatternGlider.hpp
+/Users/brady/CLionProjects/CS3460-CPP/Hw6/PatternGlider.hpp
+
+/Users/brady/CLionProjects/CS3460-CPP/Hw6/PatternGlider.hpp
+array
+-
+Pattern.hpp
+/Users/brady/CLionProjects/CS3460-CPP/Hw6/Pattern.hpp
+
