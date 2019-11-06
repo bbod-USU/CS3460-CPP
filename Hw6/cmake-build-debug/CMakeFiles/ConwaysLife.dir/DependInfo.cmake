@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/brady/CLionProjects/CS3460-CPP/Hw6/LifeSimulator.cpp" "/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/CMakeFiles/ConwaysLife.dir/LifeSimulator.cpp.o"
-  "/Users/brady/CLionProjects/CS3460-CPP/Hw6/PatternAcorn.cpp" "/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/CMakeFiles/ConwaysLife.dir/PatternAcorn.cpp.o"
-  "/Users/brady/CLionProjects/CS3460-CPP/Hw6/PatternBlinker.cpp" "/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/CMakeFiles/ConwaysLife.dir/PatternBlinker.cpp.o"
-  "/Users/brady/CLionProjects/CS3460-CPP/Hw6/PatternBlock.cpp" "/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/CMakeFiles/ConwaysLife.dir/PatternBlock.cpp.o"
-  "/Users/brady/CLionProjects/CS3460-CPP/Hw6/PatternGlider.cpp" "/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/CMakeFiles/ConwaysLife.dir/PatternGlider.cpp.o"
-  "/Users/brady/CLionProjects/CS3460-CPP/Hw6/PatternGosperGliderGun.cpp" "/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/CMakeFiles/ConwaysLife.dir/PatternGosperGliderGun.cpp.o"
-  "/Users/brady/CLionProjects/CS3460-CPP/Hw6/RendererConsole.cpp" "/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/CMakeFiles/ConwaysLife.dir/RendererConsole.cpp.o"
-  "/Users/brady/CLionProjects/CS3460-CPP/Hw6/main.cpp" "/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/CMakeFiles/ConwaysLife.dir/main.cpp.o"
+  "/Users/bradybodily/Repositories/CS3460/Hw6/LifeSimulator.cpp" "/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/CMakeFiles/ConwaysLife.dir/LifeSimulator.cpp.o"
+  "/Users/bradybodily/Repositories/CS3460/Hw6/PatternAcorn.cpp" "/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/CMakeFiles/ConwaysLife.dir/PatternAcorn.cpp.o"
+  "/Users/bradybodily/Repositories/CS3460/Hw6/PatternBlinker.cpp" "/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/CMakeFiles/ConwaysLife.dir/PatternBlinker.cpp.o"
+  "/Users/bradybodily/Repositories/CS3460/Hw6/PatternBlock.cpp" "/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/CMakeFiles/ConwaysLife.dir/PatternBlock.cpp.o"
+  "/Users/bradybodily/Repositories/CS3460/Hw6/PatternGlider.cpp" "/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/CMakeFiles/ConwaysLife.dir/PatternGlider.cpp.o"
+  "/Users/bradybodily/Repositories/CS3460/Hw6/PatternGosperGliderGun.cpp" "/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/CMakeFiles/ConwaysLife.dir/PatternGosperGliderGun.cpp.o"
+  "/Users/bradybodily/Repositories/CS3460/Hw6/RendererConsole.cpp" "/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/CMakeFiles/ConwaysLife.dir/RendererConsole.cpp.o"
+  "/Users/bradybodily/Repositories/CS3460/Hw6/main.cpp" "/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/CMakeFiles/ConwaysLife.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

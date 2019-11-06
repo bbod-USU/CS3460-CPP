@@ -3,3 +3,20 @@
 //
 
 #include "PatternBlock.hpp"
+
+PatternBlock::PatternBlock() :
+    X(4), Y(4)
+{
+    for (int i = 0; i < Y; i++)
+    {
+        for (int j = 0; j < X; j++)
+        {
+            cells[i][j] = false;
+        }
+    }
+
+    cells[1][1] = true;
+    cells[1][2] = true;
+    cells[2][1] = true;
+    cells[2][2] = true;
+}

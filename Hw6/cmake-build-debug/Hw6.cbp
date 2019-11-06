@@ -8,130 +8,143 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug"/>
+				<Option working_dir="/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug"/>
+				<Option working_dir="/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug"/>
+				<Option working_dir="/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ClangFormat">
+				<Option working_dir="/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 ClangFormat"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ConwaysLife">
-				<Option output="/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/ConwaysLife" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug"/>
+				<Option output="/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/ConwaysLife" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 ConwaysLife"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 ConwaysLife"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ConwaysLife/fast">
-				<Option output="/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/ConwaysLife" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug"/>
+				<Option output="/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/ConwaysLife" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 ConwaysLife/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brady/CLionProjects/CS3460-CPP/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 ConwaysLife/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS3460/Hw6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/brady/CLionProjects/CS3460-CPP/Hw6/LifeSimulator.cpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/LifeSimulator.cpp">
 			<Option target="ConwaysLife"/>
 		</Unit>
-		<Unit filename="/Users/brady/CLionProjects/CS3460-CPP/Hw6/LifeSimulator.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/LifeSimulator.hpp">
 			<Option target="ConwaysLife"/>
 		</Unit>
-		<Unit filename="/Users/brady/CLionProjects/CS3460-CPP/Hw6/Pattern.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/Pattern.hpp">
 			<Option target="ConwaysLife"/>
 		</Unit>
-		<Unit filename="/Users/brady/CLionProjects/CS3460-CPP/Hw6/PatternAcorn.cpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/PatternAcorn.cpp">
 			<Option target="ConwaysLife"/>
 		</Unit>
-		<Unit filename="/Users/brady/CLionProjects/CS3460-CPP/Hw6/PatternAcorn.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/PatternAcorn.hpp">
 			<Option target="ConwaysLife"/>
 		</Unit>
-		<Unit filename="/Users/brady/CLionProjects/CS3460-CPP/Hw6/PatternBlinker.cpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/PatternBlinker.cpp">
 			<Option target="ConwaysLife"/>
 		</Unit>
-		<Unit filename="/Users/brady/CLionProjects/CS3460-CPP/Hw6/PatternBlinker.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/PatternBlinker.hpp">
 			<Option target="ConwaysLife"/>
 		</Unit>
-		<Unit filename="/Users/brady/CLionProjects/CS3460-CPP/Hw6/PatternBlock.cpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/PatternBlock.cpp">
 			<Option target="ConwaysLife"/>
 		</Unit>
-		<Unit filename="/Users/brady/CLionProjects/CS3460-CPP/Hw6/PatternBlock.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/PatternBlock.hpp">
 			<Option target="ConwaysLife"/>
 		</Unit>
-		<Unit filename="/Users/brady/CLionProjects/CS3460-CPP/Hw6/PatternGlider.cpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/PatternGlider.cpp">
 			<Option target="ConwaysLife"/>
 		</Unit>
-		<Unit filename="/Users/brady/CLionProjects/CS3460-CPP/Hw6/PatternGlider.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/PatternGlider.hpp">
 			<Option target="ConwaysLife"/>
 		</Unit>
-		<Unit filename="/Users/brady/CLionProjects/CS3460-CPP/Hw6/PatternGosperGliderGun.cpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/PatternGosperGliderGun.cpp">
 			<Option target="ConwaysLife"/>
 		</Unit>
-		<Unit filename="/Users/brady/CLionProjects/CS3460-CPP/Hw6/PatternGosperGliderGun.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/PatternGosperGliderGun.hpp">
 			<Option target="ConwaysLife"/>
 		</Unit>
-		<Unit filename="/Users/brady/CLionProjects/CS3460-CPP/Hw6/Renderer.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/Renderer.hpp">
 			<Option target="ConwaysLife"/>
 		</Unit>
-		<Unit filename="/Users/brady/CLionProjects/CS3460-CPP/Hw6/RendererConsole.cpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/RendererConsole.cpp">
 			<Option target="ConwaysLife"/>
 		</Unit>
-		<Unit filename="/Users/brady/CLionProjects/CS3460-CPP/Hw6/RendererConsole.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/RendererConsole.hpp">
 			<Option target="ConwaysLife"/>
 		</Unit>
-		<Unit filename="/Users/brady/CLionProjects/CS3460-CPP/Hw6/main.cpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/main.cpp">
 			<Option target="ConwaysLife"/>
 		</Unit>
-		<Unit filename="/Users/brady/CLionProjects/CS3460-CPP/Hw6/CMakeLists.txt">
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/rlutil.h">
+			<Option target="ConwaysLife"/>
+		</Unit>
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/Hw6/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

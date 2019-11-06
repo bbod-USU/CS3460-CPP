@@ -15,7 +15,8 @@ set(HEADER_FILES
         PatternGosperGliderGun.hpp
         LifeSimulator.hpp
         Renderer.hpp
-        RendererConsole.hpp)
+        RendererConsole.hpp
+        rlutil.h)
 
 set(SOURCE_FILES
         PatternAcorn.cpp

@@ -5,28 +5,31 @@
 #ifndef CS3460_CPP_PATTERNGLIDER_HPP
 #define CS3460_CPP_PATTERNGLIDER_HPP
 
-#include <array>
 #include "Pattern.hpp"
+
+#include <array>
 
 class PatternGlider : public Pattern
 {
-private:
-    int X;
-    int Y;
+  private:
+    std::uint8_t X;
+    std::uint8_t Y;
     std::array<std::array<bool, 5>, 5> cells;
-public:
+
+  public:
     PatternGlider();
-    int getSizeX()
+    std::uint8_t getSizeX() const
     {
         return X;
     };
-    int getSizeY(){
+    std::uint8_t getSizeY() const
+    {
         return Y;
     };
-    bool getCell(int x, int y){
+    bool getCell(std::uint8_t x, std::uint8_t y) const
+    {
         return cells[x][y];
     };
-
 };
 
 #endif //CS3460_CPP_PATTERNGLIDER_HPP
