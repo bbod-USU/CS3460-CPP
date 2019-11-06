@@ -15,6 +15,8 @@ Pattern.hpp
 /Users/bradybodily/Repositories/CS3460/Hw6/Pattern.hpp
 
 /Users/bradybodily/Repositories/CS3460/Hw6/Pattern.hpp
+rlutil.h
+/Users/bradybodily/Repositories/CS3460/Hw6/rlutil.h
 array
 -
 cstdint
@@ -29,6 +31,8 @@ PatternAcorn.hpp
 /Users/bradybodily/Repositories/CS3460/Hw6/PatternAcorn.hpp
 
 /Users/bradybodily/Repositories/CS3460/Hw6/PatternAcorn.hpp
+Pattern.hpp
+/Users/bradybodily/Repositories/CS3460/Hw6/Pattern.hpp
 
 /Users/bradybodily/Repositories/CS3460/Hw6/PatternBlinker.cpp
 PatternBlinker.hpp
@@ -64,9 +68,63 @@ PatternGosperGliderGun.hpp
 Pattern.hpp
 /Users/bradybodily/Repositories/CS3460/Hw6/Pattern.hpp
 
+/Users/bradybodily/Repositories/CS3460/Hw6/Renderer.hpp
+LifeSimulator.hpp
+/Users/bradybodily/Repositories/CS3460/Hw6/LifeSimulator.hpp
+
 /Users/bradybodily/Repositories/CS3460/Hw6/RendererConsole.cpp
 RendererConsole.hpp
 /Users/bradybodily/Repositories/CS3460/Hw6/RendererConsole.hpp
 
 /Users/bradybodily/Repositories/CS3460/Hw6/RendererConsole.hpp
+Renderer.hpp
+/Users/bradybodily/Repositories/CS3460/Hw6/Renderer.hpp
+rlutil.h
+/Users/bradybodily/Repositories/CS3460/Hw6/rlutil.h
+
+/Users/bradybodily/Repositories/CS3460/Hw6/main.cpp
+LifeSimulator.hpp
+/Users/bradybodily/Repositories/CS3460/Hw6/LifeSimulator.hpp
+PatternAcorn.hpp
+/Users/bradybodily/Repositories/CS3460/Hw6/PatternAcorn.hpp
+PatternBlinker.hpp
+/Users/bradybodily/Repositories/CS3460/Hw6/PatternBlinker.hpp
+PatternBlock.hpp
+/Users/bradybodily/Repositories/CS3460/Hw6/PatternBlock.hpp
+PatternGlider.hpp
+/Users/bradybodily/Repositories/CS3460/Hw6/PatternGlider.hpp
+PatternGosperGliderGun.hpp
+/Users/bradybodily/Repositories/CS3460/Hw6/PatternGosperGliderGun.hpp
+RendererConsole.hpp
+/Users/bradybodily/Repositories/CS3460/Hw6/RendererConsole.hpp
+iostream
+-
+thread
+-
+
+/Users/bradybodily/Repositories/CS3460/Hw6/rlutil.h
+cstdio
+-
+iostream
+-
+string
+-
+stdio.h
+-
+string.h
+-
+windows.h
+-
+conio.h
+-
+sys/ioctl.h
+-
+sys/time.h
+-
+sys/types.h
+-
+termios.h
+-
+unistd.h
+-
 
