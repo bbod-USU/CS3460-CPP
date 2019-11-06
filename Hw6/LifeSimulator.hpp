@@ -21,9 +21,9 @@ class LifeSimulator
     void insertPattern(const Pattern& pattern, std::uint8_t startX, std::uint8_t startY);
     void update();
 
-    std::uint8_t getSizeX() const { return sizeX; };
-    std::uint8_t getSizeY() const { return sizeY; };
-    bool getCell(std::uint8_t x, std::uint8_t y) const { return currentScreen[y + 1][x + 1]; };
+    [[nodiscard]] std::uint8_t getSizeX() const { return sizeX; };
+    [[nodiscard]] std::uint8_t getSizeY() const { return sizeY; };
+    [[nodiscard]] bool getCell(std::uint8_t x, std::uint8_t y) const { return currentScreen[y + 1][x + 1]; };
     ;
 };
 

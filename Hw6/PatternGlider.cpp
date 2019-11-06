@@ -14,10 +14,9 @@ PatternGlider::PatternGlider() :
             cells[i][j] = false;
         }
     }
-
-    cells[3][1];
-    cells[3][2];
-    cells[3][3];
-    cells[2][3];
-    cells[1][2];
+    cells[1][2] = true;
+    cells[2][3] = true;
+    cells[3][1] = true;
+    cells[3][2] = true;
+    cells[3][3] = true;
 }

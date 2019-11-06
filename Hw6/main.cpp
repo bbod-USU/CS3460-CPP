@@ -14,26 +14,26 @@
 
 int main()
 {
-    // Renderer and Simulator
     RendererConsole rendererConsole = RendererConsole();
-    LifeSimulator lifeSimulator = LifeSimulator(100, 40);
-    // Objects
-    PatternGosperGliderGun patternGosperGliderGun = PatternGosperGliderGun();
-    PatternBlock patternBlock = PatternBlock();
-    PatternGlider patternGlider = PatternGlider();
-    PatternBlinker patternBlinker = PatternBlinker();
-    PatternAcorn patternAcorn = PatternAcorn();
+    LifeSimulator lifeSimulator = LifeSimulator(100, 100);
 
-    // Adding objects to simulator
-    lifeSimulator.insertPattern(patternGosperGliderGun, 20, 20);
-    lifeSimulator.insertPattern(patternBlock, 0, 10);
-    lifeSimulator.insertPattern(patternGlider, 5, 10);
+    PatternBlinker patternBlinker = PatternBlinker();
     lifeSimulator.insertPattern(patternBlinker, 50, 10);
+
+    PatternGlider patternGlider = PatternGlider();
+    lifeSimulator.insertPattern(patternGlider, 5, 10);
+
+    PatternGosperGliderGun patternGosperGliderGun = PatternGosperGliderGun();
+    lifeSimulator.insertPattern(patternGosperGliderGun, 20, 20);
+
+    PatternBlock patternBlock = PatternBlock();
+    lifeSimulator.insertPattern(patternBlock, 0, 10);
+
+    PatternAcorn patternAcorn = PatternAcorn();
     lifeSimulator.insertPattern(patternAcorn, 0, 23);
 
-    // Animation Demonstration
     int x = 0;
-    while (x < 200)
+    while (x < 400)
     {
         rendererConsole.render(lifeSimulator);
         lifeSimulator.update();
