@@ -14,7 +14,6 @@ PatternGosperGliderGun::PatternGosperGliderGun() :
             cells[i][j] = false;
         }
     }
-
     //Guns
     cells[3][35] = true;
     cells[3][36] = true;

@@ -12,7 +12,7 @@ class PatternGosperGliderGun : public Pattern
   private:
     std::uint8_t X;
     std::uint8_t Y;
-    std::array<std::array<bool, 4>, 4> cells{};
+    std::array<std::array<bool, 38>, 11> cells{};
 
   public:
     PatternGosperGliderGun();
@@ -26,7 +26,7 @@ class PatternGosperGliderGun : public Pattern
     };
     [[nodiscard]] bool getCell(std::uint8_t x, std::uint8_t y) const override
     {
-        return cells[x][y];
+        return cells[y][x];
     };
 };
 

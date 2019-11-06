@@ -22,5 +22,4 @@ void RendererConsole::render(const LifeSimulator& simulation)
             }
         }
     }
-    //rlutil::showcursor();
 }

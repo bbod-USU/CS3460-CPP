@@ -20,7 +20,7 @@ void LifeSimulator::insertPattern(const Pattern& pattern, std::uint8_t startX, s
 {
     startX += 1;
     startY += 1;
-    std::cout << pattern.getCell(0, 0) << std::endl;
+    //    std::cout << pattern.getCell(0, 0) << std::endl;
     if (((currentScreen.size() - 1) >= pattern.getSizeY() + startY) &&
         (pattern.getSizeX() + startX) <= (currentScreen[0].size() - 1))
     {

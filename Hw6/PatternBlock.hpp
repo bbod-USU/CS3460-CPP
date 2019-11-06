@@ -25,7 +25,7 @@ class PatternBlock : public Pattern
     };
     [[nodiscard]] bool getCell(std::uint8_t x, std::uint8_t y) const override
     {
-        return cells[x][y];
+        return cells[y][x];
     };
 };
 
