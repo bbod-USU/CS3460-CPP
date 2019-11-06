@@ -3,7 +3,6 @@
 LifeSimulator::LifeSimulator(std::uint8_t sizeX, std::uint8_t sizeY) :
     sizeX(sizeX), sizeY(sizeY)
 {
-    // Initializing vectors with padding for easy searches
     for (std::uint8_t i = 0; i < sizeY + 2; i++)
     {
         currentScreen.emplace_back();
@@ -21,8 +20,8 @@ void LifeSimulator::insertPattern(const Pattern& pattern, std::uint8_t startX, s
     startX += 1;
     startY += 1;
     //    std::cout << pattern.getCell(0, 0) << std::endl;
-    if (((currentScreen.size() - 1) >= pattern.getSizeY() + startY) &&
-        (pattern.getSizeX() + startX) <= (currentScreen[0].size() - 1))
+    if ((std::uint8_t(currentScreen.size() - 1) >= std::uint8_t(pattern.getSizeY() + startY)) &&
+            std::uint8_t(pattern.getSizeX() + startX) <= std::uint8_t(currentScreen[0].size() - 1))
     {
         for (std::uint8_t y = 0; y < pattern.getSizeY(); y++)
         {
@@ -43,7 +42,6 @@ void LifeSimulator::insertPattern(const Pattern& pattern, std::uint8_t startX, s
 
 void LifeSimulator::update()
 {
-    // Temp vector to update day
     for (std::uint8_t i = 0; i < unsigned(sizeY) + 2; i++)
     {
         for (std::uint8_t j = 0; j < unsigned(sizeX) + 2; j++)
@@ -52,9 +50,9 @@ void LifeSimulator::update()
         }
     }
 
-    for (int i = 1; i < currentScreen.size() - 1; i++)
+    for (int i = 1; i < std::uint8_t(currentScreen.size() - 1); i++)
     {
-        for (int j = 1; j < currentScreen[0].size() - 1; j++)
+        for (int j = 1; j < std::uint8_t(currentScreen[0].size() - 1); j++)
         {
             int liveCount = 0;
             for (int y = -1; y < 2; y++)
