@@ -1,0 +1,22 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/bradybodily/Repositories/CS3460/Hw7&8
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/bradybodily/Repositories/CS3460/Hw7&8/cmake-build-debug/googletest-download
+Scanning dependencies of target googletest
+[ 11%] Creating directories for 'googletest'
+[ 22%] Performing download step (git clone) for 'googletest'
+Cloning into 'googletest-src'...
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+[ 33%] No patch step for 'googletest'
+[ 44%] Performing update step for 'googletest'
+Current branch master is up to date.
+[ 55%] No configure step for 'googletest'
+[ 66%] No build step for 'googletest'
+[ 77%] No install step for 'googletest'
+[ 88%] No test step for 'googletest'
+[100%] Completed 'googletest'
+[100%] Built target googletest
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/bradybodily/Repositories/CS3460/Hw7&8/cmake-build-debug
