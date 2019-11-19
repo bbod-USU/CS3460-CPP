@@ -57,9 +57,9 @@ namespace usu
     }
 
     //america
-    using ounce = weight<std::ratio<35'273'961, 1'000'000'000>>;
-    using pound = weight<std::ratio<2'204'622, 1'000'000'000>>;
-    using ton = weight<std::ratio<1'102'311, 1'000'000'000'000>>;
+    using ounce = weight<std::ratio<28'349'523'125, 1'000'000'000>, double>;
+    using pound = weight<std::ratio<45'359'237, 100'000>, double>;
+    using ton = weight<std::ratio<90'718'474 , 100>, double>;
     //metrics
     using microgram = weight<std::ratio<1, 1'000'000>>;
     using gram = weight<std::ratio<1, 1>>;

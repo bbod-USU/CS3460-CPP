@@ -1,6 +1,3 @@
-if("master" STREQUAL "")
-  message(FATAL_ERROR "Tag for git checkout should not be empty.")
-endif()
 
 execute_process(
   COMMAND "/usr/local/bin/git" rev-list --max-count=1 HEAD
