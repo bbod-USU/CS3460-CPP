@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/UnitTestRunner.dir/weight.cpp.o"
-  "UnitTestRunner"
   "UnitTestRunner.pdb"
+  "UnitTestRunner"
 )
 
 # Per-language clean rules from dependency scanning.

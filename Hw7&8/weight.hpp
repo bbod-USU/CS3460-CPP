@@ -31,7 +31,7 @@ namespace usu
     T operator*(double scalar, T weight)
     {
         auto count = weight.count();
-        auto newCount = static_cast<decltype(count)>(scalar * count);
+        auto newCount = (scalar * count);
         T newweight(newCount);
         return newweight;
     }
