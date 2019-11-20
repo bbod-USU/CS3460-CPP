@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/bradybodily/Repositories/CS3460/HW8/ shared_ptr.hpp">
+			<Option target="HW8"/>
+		</Unit>
 		<Unit filename="/Users/bradybodily/Repositories/CS3460/HW8/main.cpp">
 			<Option target="HW8"/>
 		</Unit>
