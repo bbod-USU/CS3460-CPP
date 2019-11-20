@@ -78,9 +78,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/SharedPtr.dir/DependInfo.cmake"
   "CMakeFiles/ClangFormat.dir/DependInfo.cmake"
   "CMakeFiles/UnitTestRunner.dir/DependInfo.cmake"
+  "CMakeFiles/TestMemory.dir/DependInfo.cmake"
   "googletest-build/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "googletest-build/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"

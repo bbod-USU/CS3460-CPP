@@ -7,28 +7,29 @@ set(CMAKE_CXX_STANDARD 17)
 # Manually specifying all the source files.
 #
 set(HEADER_FILES
-        shared_ptr.hpp)
+        shared_ptr.hpp
+        )
 set(SOURCE_FILES
-        #TestMemory.cpp
+        #weight.cpp
         )
 set(UNIT_TEST_FILES
         TestMemory.cpp)
 
-add_executable(SharedPtr ${HEADER_FILES} ${SOURCE_FILES} main.cpp)
+add_executable(TestMemory ${HEADER_FILES} ${SOURCE_FILES} main.cpp)
 add_executable(UnitTestRunner  ${HEADER_FILES} ${SOURCE_FILES} ${UNIT_TEST_FILES})
 
 #
 # We want the C++ 17 standard for our project
 #
-set_property(TARGET SharedPtr PROPERTY CXX_STANDARD 17)
+set_property(TARGET TestMemory PROPERTY CXX_STANDARD 17)
 set_property(TARGET UnitTestRunner PROPERTY CXX_STANDARD 17)
 
 if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "MSVC")
-    target_compile_options(SharedPtr PRIVATE /W4 /permissive-)
+    target_compile_options(TestMemory PRIVATE /W4 /permissive-)
     target_compile_options(UnitTestRunner PRIVATE /W4 /permissive-)
     set_target_properties(UnitTestRunner PROPERTIES LINK_FLAGS "/STACK:10000000")
 elseif ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
-    target_compile_options(SharedPtr PRIVATE -Wall -Wextra -pedantic -Wl,--stack,10000000 -O3)
+    target_compile_options(TestMemory PRIVATE -Wall -Wextra -pedantic -Wl,--stack,10000000 -O3)
     target_compile_options(UnitTestRunner PRIVATE -Wall -Wextra -pedantic -Wl,--stack,10000000 -O3)
 endif()
 
@@ -61,7 +62,7 @@ if (CLANG_FORMAT)
     #
     # This makes the clang-format target a dependency of the main GoogleTestIntro project
     #
-#    add_dependencies(Weights ClangFormat)
+    #    add_dependencies(Weights ClangFormat)
 else()
     message("Unable to find clang-format")
 endif()

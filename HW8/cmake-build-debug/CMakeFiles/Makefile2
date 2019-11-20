@@ -65,43 +65,6 @@ CMAKE_SOURCE_DIR = /Users/bradybodily/Repositories/CS3460/HW8
 CMAKE_BINARY_DIR = /Users/bradybodily/Repositories/CS3460/HW8/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/SharedPtr.dir
-
-# All Build rule for target.
-CMakeFiles/SharedPtr.dir/all:
-	$(MAKE) -f CMakeFiles/SharedPtr.dir/build.make CMakeFiles/SharedPtr.dir/depend
-	$(MAKE) -f CMakeFiles/SharedPtr.dir/build.make CMakeFiles/SharedPtr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bradybodily/Repositories/CS3460/HW8/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target SharedPtr"
-.PHONY : CMakeFiles/SharedPtr.dir/all
-
-# Include target in all.
-all: CMakeFiles/SharedPtr.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/SharedPtr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bradybodily/Repositories/CS3460/HW8/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SharedPtr.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bradybodily/Repositories/CS3460/HW8/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/SharedPtr.dir/rule
-
-# Convenience name for target.
-SharedPtr: CMakeFiles/SharedPtr.dir/rule
-
-.PHONY : SharedPtr
-
-# clean rule for target.
-CMakeFiles/SharedPtr.dir/clean:
-	$(MAKE) -f CMakeFiles/SharedPtr.dir/build.make CMakeFiles/SharedPtr.dir/clean
-.PHONY : CMakeFiles/SharedPtr.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/SharedPtr.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/ClangFormat.dir
 
 # All Build rule for target.
@@ -168,6 +131,43 @@ CMakeFiles/UnitTestRunner.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/UnitTestRunner.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/TestMemory.dir
+
+# All Build rule for target.
+CMakeFiles/TestMemory.dir/all:
+	$(MAKE) -f CMakeFiles/TestMemory.dir/build.make CMakeFiles/TestMemory.dir/depend
+	$(MAKE) -f CMakeFiles/TestMemory.dir/build.make CMakeFiles/TestMemory.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bradybodily/Repositories/CS3460/HW8/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target TestMemory"
+.PHONY : CMakeFiles/TestMemory.dir/all
+
+# Include target in all.
+all: CMakeFiles/TestMemory.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/TestMemory.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bradybodily/Repositories/CS3460/HW8/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TestMemory.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bradybodily/Repositories/CS3460/HW8/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/TestMemory.dir/rule
+
+# Convenience name for target.
+TestMemory: CMakeFiles/TestMemory.dir/rule
+
+.PHONY : TestMemory
+
+# clean rule for target.
+CMakeFiles/TestMemory.dir/clean:
+	$(MAKE) -f CMakeFiles/TestMemory.dir/build.make CMakeFiles/TestMemory.dir/clean
+.PHONY : CMakeFiles/TestMemory.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/TestMemory.dir/clean
 
 .PHONY : clean
 
@@ -245,8 +245,8 @@ clean: googletest-build/googlemock/CMakeFiles/gmock.dir/clean
 # Target rules for target googletest-build/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: googletest-build/googletest/CMakeFiles/gtest.dir/all
 googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: googletest-build/googlemock/CMakeFiles/gmock.dir/all
+googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bradybodily/Repositories/CS3460/HW8/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target gmock_main"

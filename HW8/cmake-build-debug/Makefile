@@ -157,19 +157,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SharedPtr
-
-# Build rule for target.
-SharedPtr: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SharedPtr
-.PHONY : SharedPtr
-
-# fast build rule for target.
-SharedPtr/fast:
-	$(MAKE) -f CMakeFiles/SharedPtr.dir/build.make CMakeFiles/SharedPtr.dir/build
-.PHONY : SharedPtr/fast
-
-#=============================================================================
 # Target rules for targets named ClangFormat
 
 # Build rule for target.
@@ -194,6 +181,19 @@ UnitTestRunner: cmake_check_build_system
 UnitTestRunner/fast:
 	$(MAKE) -f CMakeFiles/UnitTestRunner.dir/build.make CMakeFiles/UnitTestRunner.dir/build
 .PHONY : UnitTestRunner/fast
+
+#=============================================================================
+# Target rules for targets named TestMemory
+
+# Build rule for target.
+TestMemory: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TestMemory
+.PHONY : TestMemory
+
+# fast build rule for target.
+TestMemory/fast:
+	$(MAKE) -f CMakeFiles/TestMemory.dir/build.make CMakeFiles/TestMemory.dir/build
+.PHONY : TestMemory/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -280,7 +280,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/SharedPtr.dir/build.make CMakeFiles/SharedPtr.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/TestMemory.dir/build.make CMakeFiles/TestMemory.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -289,7 +289,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/SharedPtr.dir/build.make CMakeFiles/SharedPtr.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/TestMemory.dir/build.make CMakeFiles/TestMemory.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -298,7 +298,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/SharedPtr.dir/build.make CMakeFiles/SharedPtr.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/TestMemory.dir/build.make CMakeFiles/TestMemory.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -311,11 +311,11 @@ help:
 	@echo "... install/strip"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... SharedPtr"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ClangFormat"
 	@echo "... UnitTestRunner"
+	@echo "... TestMemory"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest_main"
