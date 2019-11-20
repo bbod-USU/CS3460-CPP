@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+46726c50d39d55cf0ef0db2b35d8e44f CMakeFiles/ClangFormat

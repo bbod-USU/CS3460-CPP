@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bradybodily/Repositories/CS3460/HW8/main.cpp
+shared_ptr.hpp
+/Users/bradybodily/Repositories/CS3460/HW8/shared_ptr.hpp
+iostream
+-
+memory
+-
+string
+-
+
